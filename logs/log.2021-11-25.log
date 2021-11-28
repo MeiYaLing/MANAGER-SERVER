@@ -1,0 +1,11 @@
+[2021-11-25T23:09:32.584] [ERROR] error - ReferenceError: ctx is not defined
+    at C:\Users\木玲\学习\裴老师的前端课程\VUE3-ELEMENT-PLUS\manager-server\app.js:35:3
+    at dispatch (C:\Users\木玲\学习\裴老师的前端课程\VUE3-ELEMENT-PLUS\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at views (C:\Users\木玲\学习\裴老师的前端课程\VUE3-ELEMENT-PLUS\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (C:\Users\木玲\学习\裴老师的前端课程\VUE3-ELEMENT-PLUS\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\木玲\学习\裴老师的前端课程\VUE3-ELEMENT-PLUS\manager-server\node_modules\koa-static\index.js:53:15)
+    at dispatch (C:\Users\木玲\学习\裴老师的前端课程\VUE3-ELEMENT-PLUS\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at filter (C:\Users\木玲\学习\裴老师的前端课程\VUE3-ELEMENT-PLUS\manager-server\node_modules\koa-json\index.js:25:12)
+    at dispatch (C:\Users\木玲\学习\裴老师的前端课程\VUE3-ELEMENT-PLUS\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\木玲\学习\裴老师的前端课程\VUE3-ELEMENT-PLUS\manager-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
