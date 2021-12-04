@@ -15,7 +15,7 @@ module.exports = {
      * @param {number} ageNum 
      * @param {number} ageSize 
      */
-    paper(ageNum = 1, ageSize = 10) {
+    paper({ ageNum = 1, ageSize = 10 }) {
         ageNum *= 1;
         ageSize *= 1;
         const skipIndex = (ageNum - 1) * ageSize;

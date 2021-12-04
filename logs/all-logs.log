@@ -533,3 +533,110 @@
 [2021-12-03T15:20:47.704] [INFO] info - post params:{}
 [2021-12-03T15:21:37.762] [INFO] info - info output
 [2021-12-03T15:21:37.781] [INFO] info - ****数据库连接成功****
+[2021-12-03T15:21:43.814] [INFO] info - info output
+[2021-12-03T15:21:43.839] [INFO] info - ****数据库连接成功****
+[2021-12-03T15:21:57.554] [INFO] info - get params:{}
+[2021-12-03T15:21:57.555] [INFO] info - post params:{"userName":"admin","userPwd":"admin"}
+[2021-12-03T15:21:57.781] [INFO] info - get params:{}
+[2021-12-03T15:21:57.782] [INFO] info - post params:{}
+[2021-12-03T15:21:57.912] [INFO] info - get params:{}
+[2021-12-03T15:21:57.913] [INFO] info - post params:{}
+[2021-12-04T18:14:39.019] [INFO] info - info output
+[2021-12-04T18:14:39.047] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:14:41.923] [INFO] info - get params:{}
+[2021-12-04T18:14:41.924] [INFO] info - post params:{"userName":"111","userPwd":"111"}
+[2021-12-04T18:16:04.938] [INFO] info - get params:{}
+[2021-12-04T18:16:04.940] [INFO] info - post params:{"userName":"111","userPwd":"111"}
+[2021-12-04T18:16:18.598] [INFO] info - get params:{}
+[2021-12-04T18:16:18.598] [INFO] info - post params:{"userName":"admin","userPwd":"admin"}
+[2021-12-04T18:16:18.956] [INFO] info - get params:{}
+[2021-12-04T18:16:18.956] [INFO] info - post params:{}
+[2021-12-04T18:17:03.123] [INFO] info - info output
+[2021-12-04T18:17:03.148] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:17:06.324] [INFO] info - info output
+[2021-12-04T18:17:06.357] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:17:16.657] [INFO] info - info output
+[2021-12-04T18:17:16.679] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:17:25.204] [INFO] info - info output
+[2021-12-04T18:17:25.225] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:17:29.399] [INFO] info - info output
+[2021-12-04T18:17:29.422] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:17:30.927] [INFO] info - info output
+[2021-12-04T18:17:30.947] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:17:33.326] [INFO] info - info output
+[2021-12-04T18:17:33.358] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:17:36.894] [INFO] info - info output
+[2021-12-04T18:17:36.917] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:17:41.124] [INFO] info - info output
+[2021-12-04T18:17:41.144] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:17:43.893] [INFO] info - info output
+[2021-12-04T18:17:43.923] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:17:58.810] [INFO] info - get params:{}
+[2021-12-04T18:17:58.811] [INFO] info - post params:{"userName":"aaa","userPwd":"aaaa"}
+[2021-12-04T18:17:58.821] [INFO] info - res=null
+[2021-12-04T18:22:51.170] [INFO] info - info output
+[2021-12-04T18:22:51.198] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:22:55.653] [INFO] info - info output
+[2021-12-04T18:22:55.685] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:22:57.923] [INFO] info - info output
+[2021-12-04T18:22:57.948] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:23:05.651] [INFO] info - info output
+[2021-12-04T18:23:05.670] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:23:23.167] [INFO] info - info output
+[2021-12-04T18:23:23.193] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:23:26.505] [INFO] info - info output
+[2021-12-04T18:23:26.528] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:23:29.835] [INFO] info - info output
+[2021-12-04T18:23:29.864] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:23:34.858] [INFO] info - info output
+[2021-12-04T18:23:34.881] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:23:40.790] [INFO] info - info output
+[2021-12-04T18:23:40.811] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:23:46.623] [INFO] info - info output
+[2021-12-04T18:23:46.655] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:52:59.912] [INFO] info - info output
+[2021-12-04T18:52:59.929] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:53:10.511] [INFO] info - get params:{}
+[2021-12-04T18:53:10.512] [INFO] info - post params:{"userName":"admin","userPwd":"admin"}
+[2021-12-04T18:53:10.528] [INFO] info - res={
+  _id: new ObjectId("619fadc9ed7706b6754dee8a"),
+  state: '1',
+  role: 0,
+  roleList: [
+    '60180b07b1eaed6c45fbebdb',
+    '60150cb764de99631b2c3cd3',
+    '60180b59b1eaed6c45fbebdc'
+  ],
+  deptId: [ '60167059c9027b7d2c520a61', '60167345c6a4417f2d27506f' ],
+  userId: 1000002,
+  userName: 'admin',
+  userEmail: 'admin@imooc.com'
+}
+[2021-12-04T18:53:10.649] [INFO] info - get params:{}
+[2021-12-04T18:53:10.650] [INFO] info - post params:{}
+[2021-12-04T18:53:41.618] [INFO] info - get params:{}
+[2021-12-04T18:53:41.619] [INFO] info - post params:{}
+[2021-12-04T18:55:11.207] [INFO] info - info output
+[2021-12-04T18:55:11.244] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:55:12.705] [INFO] info - info output
+[2021-12-04T18:55:12.723] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:55:15.221] [INFO] info - get params:{}
+[2021-12-04T18:55:15.222] [INFO] info - post params:{}
+[2021-12-04T18:59:15.161] [INFO] info - info output
+[2021-12-04T18:59:15.183] [INFO] info - ****数据库连接成功****
+[2021-12-04T18:59:17.740] [INFO] info - get params:{}
+[2021-12-04T18:59:17.742] [INFO] info - post params:{}
+[2021-12-04T18:59:51.606] [INFO] info - get params:{}
+[2021-12-04T18:59:51.607] [INFO] info - post params:{}
+[2021-12-04T19:00:06.428] [INFO] info - get params:{}
+[2021-12-04T19:00:06.429] [INFO] info - post params:{}
+[2021-12-04T19:30:57.477] [INFO] info - get params:{}
+[2021-12-04T19:30:57.478] [INFO] info - post params:{}
+[2021-12-04T19:31:56.776] [INFO] info - get params:{}
+[2021-12-04T19:31:56.777] [INFO] info - post params:{}
+[2021-12-04T19:32:14.166] [INFO] info - get params:{}
+[2021-12-04T19:32:14.167] [INFO] info - post params:{}
+[2021-12-04T19:32:25.300] [INFO] info - get params:{}
+[2021-12-04T19:32:25.300] [INFO] info - post params:{}
+[2021-12-04T19:32:27.055] [INFO] info - get params:{}
+[2021-12-04T19:32:27.056] [INFO] info - post params:{}
