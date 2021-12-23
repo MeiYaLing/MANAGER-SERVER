@@ -12,8 +12,8 @@ module.exports = {
 
     /**
      * 分页函数封装
-     * @param {number} pageNum 
-     * @param {number} pageSize 
+     * @param {number} pageNum 页码
+     * @param {number} pageSize 一页展示多少条
      */
     paper({ pageNum = 1, pageSize = 10 }) {
         pageNum *= 1;

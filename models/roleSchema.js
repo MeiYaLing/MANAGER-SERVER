@@ -7,11 +7,11 @@ const roleSchema = mongoose.Schema({
         checkedKeys: [],
         halfCheckedKeys: []
     },
-    "createTime": {
+    createTime: {
         type: Date,
         default: Date.now()
     },//创建时间
-    "updateTime": {
+    updateTime: {
         type: Date,
         default: Date.now()
     },//更新时间

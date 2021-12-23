@@ -1,14 +1,11 @@
 const mongoose = require('mongoose')
 
-const menuSchema = mongoose.Schema({
-    menuType: Number,
-    menuName: String,
-    menuCode: String,
-    path: String,
-    icon: String,
-    component: String,
-    menuState: Number,
+const deptSchema = mongoose.Schema({
     parentId: [mongoose.Types.ObjectId],//mongoose的id类型
+    deptName: String,
+    userId: String,
+    userName: String,
+    userEmail: String,
     createTime: {
         type: Date,
         default: Date.now()
@@ -17,7 +14,6 @@ const menuSchema = mongoose.Schema({
         type: Date,
         default: Date.now()
     },//更新时间
-    remark: String//备用字段
 })
 
-module.exports = mongoose.model('menu', menuSchema, 'menus')
+module.exports = mongoose.model('depts', deptSchema, 'depts')

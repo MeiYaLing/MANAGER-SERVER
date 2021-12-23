@@ -20,7 +20,7 @@ router.post('/login', async (ctx) => {
      * 3、await User.findOne({ userName, userPwd }).select('userId')
      */
     // userPwd = md5(userPwd);
-    const res = await User.findOne({ userName, userPwd:md5(userPwd) }, 'userId userName userEmail state role deptId roleList');
+    const res = await User.findOne({ userName, userPwd: md5(userPwd) }, 'userId userName userEmail state role deptId roleList');
     // log4js.info("res=" + res);
 
     if (res) {
@@ -154,6 +154,16 @@ router.post('/operate', async (ctx) => {
     }
   }
 
+})
+
+//所有用户列表
+router.get('/all/list', async (ctx) => {
+  try {
+    const list = await User.find({},'userId userName userEmail')
+    ctx.body = util.success(list)
+  } catch (error) {
+    ctx.body = util.fail(`获取所有用户列表失败${error.stack}`)
+  }
 })
 
 module.exports = router

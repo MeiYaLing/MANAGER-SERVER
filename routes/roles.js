@@ -21,8 +21,6 @@ router.get('/list', async (ctx) => {
   try {
     const { roleName } = ctx.request.query;
     const { page, skipIndex } = util.paper(ctx.request.query);
-    console.log(skipIndex)
-    console.log(page.pageSize)
     let params = {};
     if (roleName) params.roleName = roleName;
     const query = Role.find(params);
