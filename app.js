@@ -15,6 +15,7 @@ const util = require('./utils/util')
 
 const users = require('./routes/users')
 const menus = require('./routes/menus')
+const roles = require('./routes/roles')
 
 // error handler
 onerror(app)
@@ -74,6 +75,7 @@ router.get('/leave/count', (ctx) => {
 
 router.use(users.routes(), users.allowedMethods())
 router.use(menus.routes(), menus.allowedMethods())
+router.use(roles.routes(), roles.allowedMethods())
 
 
 // routes

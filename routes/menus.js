@@ -3,7 +3,6 @@ const Menu = require('../models/menuSchema')
 const util = require('../utils/util')
 const log4js = require('../utils/log4j')
 const { CODE } = require('../utils/util')
-const { defaultMaxListeners } = require('koa')
 
 router.prefix('/menu')
 
@@ -75,7 +74,7 @@ router.post('/operate', async (ctx) => {
     }
     ctx.body = util.success({}, info);
   } catch (error) {
-
+    ctx.body = util.fail(`操作失败${error.stack}`);
   }
 
 })

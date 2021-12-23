@@ -12,17 +12,17 @@ module.exports = {
 
     /**
      * 分页函数封装
-     * @param {number} ageNum 
-     * @param {number} ageSize 
+     * @param {number} pageNum 
+     * @param {number} pageSize 
      */
-    paper({ ageNum = 1, ageSize = 10 }) {
-        ageNum *= 1;
-        ageSize *= 1;
-        const skipIndex = (ageNum - 1) * ageSize;
+    paper({ pageNum = 1, pageSize = 10 }) {
+        pageNum *= 1;
+        pageSize *= 1;
+        const skipIndex = (pageNum - 1) * pageSize;
         return {
             page: {
-                ageNum,
-                ageSize
+                pageNum,
+                pageSize
             },
             skipIndex
         }
